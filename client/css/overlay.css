@@ -1,0 +1,52 @@
+
+
+.crater-overlay {
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
+.crater-alert-box {
+  background: #ffffff;
+  width: 500px;
+  min-height: 250px;
+  margin: 200px auto 0px auto;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+
+.overlays-presentation {
+  margin: 20px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.25);
+}
+
+.colorer {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+
+.orange {
+  background: #ffc040;
+}
+
+.yellow {
+  background: #fff040;
+}
+
+.green {
+  background: #80ff40;
+}
+
+.blue {
+  background: #40c0ff;
+}
