@@ -2,38 +2,22 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "crater": {}
+      "crater": {
+        "git": "https://github.com/subhog/meteor-crater.git",
+        "branch": "master"
+      },
+      "texture": {}
     },
     "packages": {
       "crater": {
         "git": "https://github.com/subhog/meteor-crater.git",
-        "tag": "v0.1.2",
-        "commit": "43372aa5514a2694872f81160cb9009f18329ec4"
+        "branch": "master",
+        "commit": "98730e76b47a4788645b2e2cb67b663d43c3346c"
       },
-      "crater-forms": {
-        "git": "https://github.com/subhog/meteor-crater-forms.git",
-        "tag": "v0.1.2",
-        "commit": "7499ab10f2c0a33872ec74e07599a79a704fe3a5"
-      },
-      "crater-overlay": {
-        "git": "https://github.com/subhog/meteor-crater-overlay.git",
+      "texture": {
+        "git": "https://github.com/subhog/meteor-texture.git",
         "tag": "v0.1.1",
-        "commit": "e353ae63345fc41a5b4495d7992cd45fe429bff7"
-      },
-      "crater-remover": {
-        "git": "https://github.com/subhog/meteor-crater-remover.git",
-        "tag": "v0.1.1",
-        "commit": "729e168d1ab6ccbf30767fc1e16a1f35ebb18bf7"
-      },
-      "crater-toggle": {
-        "git": "https://github.com/subhog/meteor-crater-toggle.git",
-        "tag": "v0.1.1",
-        "commit": "b8beb67a0ffa0ce8880943ea945d2f1c00b1900b"
-      },
-      "crater-base": {
-        "git": "https://github.com/subhog/meteor-crater-base.git",
-        "tag": "v0.1.1",
-        "commit": "7a073bc8302ed56a8390b834f7be592c87d5f872"
+        "commit": "338f1130718f828196baadaf2ffa6bbb2d5b27fb"
       }
     }
   }
