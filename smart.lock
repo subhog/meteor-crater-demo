@@ -1,0 +1,21 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "crater": {},
+      "texture": {}
+    },
+    "packages": {
+      "crater": {
+        "git": "https://github.com/subhog/meteor-crater.git",
+        "tag": "v0.5.0",
+        "commit": "497d47b9dfe3958246d3e056dbc99aa61abf938d"
+      },
+      "texture": {
+        "git": "https://github.com/subhog/meteor-texture.git",
+        "tag": "v0.2.2",
+        "commit": "066b43abffca52fb24e7f3969df2f9cdcc179599"
+      }
+    }
+  }
+}
