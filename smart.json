@@ -1,8 +1,5 @@
 {
   "packages": {
-    "crater": {
-      "git": "https://github.com/subhog/meteor-crater.git"
-    },
-    "texture": {}
+    "crater": {}
   }
 }

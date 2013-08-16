@@ -18,6 +18,20 @@ Template.overlays.events({
     });
   },
 
+
+  'click .overlays-prompt': function(e) {
+    Crater.prompt({
+      title: 'Edit text',
+      closer: true,
+      message: 'Enter new text:',
+      value: $('.overlays-presentation').html(),
+      ok: 'Replace'
+    }, function(error, data) {
+      if(!data) return;
+      $('.overlays-presentation').html(_.escape(data.value));
+    });
+  },
+
   'click .overlays-custom': function(e) {
 
     Crater.drawOverlay('colorChooser', null, function(error, data) {

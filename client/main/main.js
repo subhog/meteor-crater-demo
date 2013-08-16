@@ -13,6 +13,10 @@ Template.main.rendered = function() {
     }
   });
 
+
+
+
+
   // Texture('body', {name: 'grid', width: 200, height: 200}, {
   //   pixel: function(ctx, data, x, y) {
   //     // var v = 0.0;

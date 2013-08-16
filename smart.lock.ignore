@@ -1,0 +1,27 @@
+
+CRATER:
+
+        "path": "/Users/hubert/Files/Github/meteor/crater"
+
+---
+
+        "git": "https://github.com/subhog/meteor-crater.git",
+        "branch": "master",
+        "commit": "18e8b2d3533a0237f94a5aa4ec6f91b05e39f33a"
+
+---
+
+        "git": "https://github.com/subhog/meteor-crater.git",
+        "tag": "v0.3.3",
+        "commit": "322ff3c4093bbe4a4efebf919aaa6e04a84e8db6"
+
+
+TEXTURE:
+
+        "path": "/Users/hubert/Files/Github/meteor/texture"
+
+---
+
+        "git": "https://github.com/subhog/meteor-texture.git",
+        "tag": "v0.2.2",
+        "commit": "066b43abffca52fb24e7f3969df2f9cdcc179599"
